@@ -17,7 +17,7 @@ public class Solution {
                 }
             } else if (ch_arr >= 'A' && ch_arr <= 'Z') {
                 // 대문자 조건 처리 - 일반 로직 : else문, 조건 고려 로직 : if문으로 처리
-                if (ch_arr+ n > 'Z') {
+                if (ch_arr + n > 'Z') {
                     answer += (char)(ch_arr - 26 + n);
                 } else {
                     answer += (char)(ch_arr + n);
